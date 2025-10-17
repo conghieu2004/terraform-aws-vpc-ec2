@@ -4,7 +4,7 @@ variable "vpc_name" {
   default     = "my-vpc"
 }
 
-variable "public_ip_id" {
+variable "public_subnet_id" {
   description = "CIDR block for the public subnet"
     type      = string
 }
